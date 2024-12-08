@@ -9,7 +9,7 @@ import education from './education';
 import article from './article';
 import etc from './etc';
 import footer from './footer';
-
+import study from './study';
 import { _global } from './_global';
 
 import { IProfile } from '../component/profile/IProfile';
@@ -29,6 +29,7 @@ const Payload: Payload = {
   profile,
   introduce,
   skill,
+  study,
   openSource,
   experience,
   project,
@@ -48,6 +49,7 @@ interface Payload {
   openSource: IOpenSource.Payload;
   experience: IExperience.Payload;
   project: IProject.Payload;
+  study: IProject.Payload;
   presentation: IPresentation.Payload;
   education: IEducation.Payload;
   article: IArticle.Payload;

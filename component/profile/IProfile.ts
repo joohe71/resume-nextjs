@@ -26,7 +26,7 @@ export declare namespace IProfile {
     /** ### 공지 */
     notice: {
       /** ### 공지 내용 */
-      title: string;
+      title?: string;
       /**
        * ### 공지 앞에 붙는 아이콘
        *

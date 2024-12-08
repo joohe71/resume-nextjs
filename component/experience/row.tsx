@@ -90,7 +90,9 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
         ) : (
           ''
         )}
-        <Badge color="info">{Util.getFormattingDuration(startedAt, endedAt)}</Badge>
+        <Badge style={{ border: 'none' }} color="info">
+          {Util.getFormattingDuration(startedAt, endedAt)}
+        </Badge>
       </Col>
     </Row>
   );

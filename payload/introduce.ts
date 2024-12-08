@@ -1,17 +1,23 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
 
 const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '2022년부터 다양한 프로젝트를 통해 5개의 웹 서비스와 5개의 앱을 출시했습니다. ',
+
+    '데이터하이브에서 첫 번째 앱 개발자로 입사하여 앱 프레임워크 선택부터 개발, 테스트, 앱 출시까지의 모든 과정에서 주도적으로 참여했습니다. 이 과정에서 앱 빌드 시 발생하는 오류를 해결하며 문제 해결 능력을 향상시켰고, 안드로이드와 iOS 플랫폼에 따른 사용자 경험에 대한 이해를 깊이 있게 쌓았습니다. 또한, 웹과의 통신에 대한 지식도 확장할 수 있었습니다.',
+
+    '반복적인 작업을 자동화하고 비효율적인 프로세스를 개선하는 것을 좋아합니다. Mantine 디자인 시스템을 활용하여 빠른 시간 내에 컴포넌트를 개발하고, 여러 웹 서비스 프로젝트를 효율적으로 진행한 경험이 있습니다.', // (이 시스템은 커스터마이징이 용이하고 문서화가 잘 되어 있어 유용했습니다.)
+
+    '프론트엔드 팀원으로 활동하며 팀의 체계화를 위한 컨벤션 구축, 유효성 검사 라이브러리 선택 등 필요한 작업을 수행했습니다. 저는 큰 임팩트를 혼자서가 아니라 팀과 함께 만들 수 있다고 생각합니다. 그래서 다양한 직무의 구성원들과 적극적으로 소통하며 협업해왔습니다.',
+
+    '새로운 기술에 도전하는 것을 즐기며 끊임없이 배우고 성장하고자 합니다. 개발 과정에서 어려운 부분이 있더라도 긍정적인 태도로 임하며, 앞으로 프론트엔드 분야에서 전문성을 더욱 발전시켜 동료들과 함께 의미있는 결과물을 만들어내고 싶습니다.',
   ],
-  sign: 'Tux',
+  sign: 'juhee',
   // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
-  latestUpdated: lastestUpdatedAt,
+  latestUpdated: '2024-10-01',
+  // latestUpdated: lastestUpdatedAt,
 };
 
 export default introduce;
